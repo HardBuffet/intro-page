@@ -1,0 +1,29 @@
+{
+  "name": "intro-section-with-dropdown-navigation-main",
+  "version": "1.0.0",
+  "description": "intro page #Frontend Mentor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HardBuffet/intro-page.git"
+  },
+  "keywords": [
+    "intro-page",
+    "html",
+    "css",
+    "javascript",
+    "frontend"
+  ],
+  "author": "HardBuffet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HardBuffet/intro-page/issues"
+  },
+  "homepage": "https://github.com/HardBuffet/intro-page#readme",
+  "dependencies": {
+    "prettier": "^2.6.2"
+  }
+}
