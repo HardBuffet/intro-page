@@ -1,0 +1,6 @@
+.main__title {
+  font: {
+    size: 1.875rem;
+    size: clamp(1.875rem, 1rem + 4vw, 2.5rem);
+  };
+}

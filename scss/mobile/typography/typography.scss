@@ -1,0 +1,15 @@
+@media only screen and (max-width: 600px)
+{
+  ///// BLOCKS /////
+@import "main/main";
+
+///// ELEMENTS /////
+@import "main/__left-content/__left-content";
+@import "main/__intro/__intro";
+@import "main/__title/__title";
+@import "main/__text/__text";
+@import "main/__brands/__brands";
+@import "main/__brand/__brand";
+@import "main/__image/__image";
+@import "button-link/_margin/_margin";
+}

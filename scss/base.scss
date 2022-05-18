@@ -1,0 +1,7 @@
+*,
+*::before,
+*::after {
+  @include reset($marPad:true);
+  box-sizing: border-box;
+  font-family: $epilogue;
+}

@@ -1,0 +1,32 @@
+nav.nav
+        ul.nav__list
+          li.nav__item.dropdown
+            button.nav__button Features
+              img(src="images/icon-arrow-down.svg")
+            .nav__dropdown-menu
+              a(href="#" class="nav__link")
+                img(src="images/icon-todo.svg" alt="")
+                | Todo List
+              a(href="#" class="nav__link")
+                img(src="images/icon-calendar.svg" alt="")
+                | Calendar
+              a(href="#" class="nav__link")
+                img(src="images/icon-reminders.svg" alt="")
+                | Reminders
+              a(href="#" class="nav__link")
+                img(src="images/icon-planning.svg" alt="")
+                | Planning
+          li.nav__item.dropdown
+            button.nav__button Company
+              img(src="images/icon-arrow-down.svg")
+            .nav__dropdown-menu
+              a(href="#" class="nav__link") History
+              a(href="#" class="nav__link") Our Team
+              a(href="#" class="nav__link") Blog
+          li.nav__item
+            a.nav__link Careers
+          li.nav__item
+            a.nav__link About
+        .nav__buttons
+          button.button Login
+          button.button.button_border Register

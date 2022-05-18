@@ -1,0 +1,6 @@
+@mixin reset($marPad: false) {
+  @if $marPad {
+    margin: 0;
+    padding: 0;
+  }
+}

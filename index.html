@@ -1,99 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <title>This is my page</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js" defer></script>
   </head>
   <body class="page">
-    <nav class="nav page__nav">
-      <a class="logo nav__logo" href="#">
-        <img class="logo__img" src="images/logo.svg" alt="" />
-      </a>
-      <div class="nav-touch">
+    <header class="header"><img src="images/logo.svg" alt="">
+      <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__item">
-            <a href="#" class="nav__link"
-              >Features
-              <i class="nav__icon" src="images/icon-arrow-down.svg"></i
-            ></a>
-            <ol class="nav__subnav">
-              <li class="nav__item nav__item_margin-left">
-                <a href="#" class="nav__link">
-                  <i class="nav__icon" src="images/icon-todo.svg"></i> Todo List
-                </a>
-              </li>
-              <li class="nav__item nav__item_margin-left">
-                <a href="#" class="nav__link">
-                  <i class="nav__icon" src="images/icon-calendar.svg"></i>
-                  Calendar
-                </a>
-              </li>
-              <li class="nav__item nav__item_margin-left">
-                <a href="#" class="nav__link">
-                  <i class="nav__icon" src="images/icon-reminders.svg"></i>
-                  Reminders
-                </a>
-              </li>
-              <li class="nav__item nav__item_margin-left">
-                <a href="#" class="nav__link">
-                  <i class="nav__icon" src="images/icon-planning.svg"></i>
-                  Planning
-                </a>
-              </li>
-            </ol>
+          <li class="nav__item dropdown">
+            <button class="nav__button">Features<img src="images/icon-arrow-down.svg"></button>
+            <div class="nav__dropdown-menu"><a class="nav__link" href="#"><img src="images/icon-todo.svg" alt="">Todo List</a><a class="nav__link" href="#"><img src="images/icon-calendar.svg" alt="">Calendar</a><a class="nav__link" href="#"><img src="images/icon-reminders.svg" alt="">Reminders</a><a class="nav__link" href="#"><img src="images/icon-planning.svg" alt="">Planning</a></div>
           </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link"
-              >Company <i class="nav__icon" src="images/icon-arrow-down.svg"></i
-            ></a>
-            <ol class="nav__subnav">
-              <li class="nav__item nav__item_margin-left">
-                <a href="#" class="nav__link">History</a>
-              </li>
-              <li class="nav__item nav__item_margin-left">
-                <a href="#" class="nav__link">Our Team</a>
-              </li>
-              <li class="nav__item nav__item_margin-left">
-                <a href="#" class="nav__link">Blog</a>
-              </li>
-            </ol>
+          <li class="nav__item dropdown">
+            <button class="nav__button">Company<img src="images/icon-arrow-down.svg"></button>
+            <div class="nav__dropdown-menu"><a class="nav__link" href="#">History</a><a class="nav__link" href="#">Our Team</a><a class="nav__link" href="#">Blog</a></div>
           </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">Careers</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">About</a>
-          </li>
+          <li class="nav__item"><a class="nav__link">Careers</a></li>
+          <li class="nav__item"><a class="nav__link">About</a></li>
         </ul>
-        <div class="nav__login-btns">
-          <button class="btn">Login</button>
-          <button class="btn btn_border">Register</button>
+        <div class="nav__buttons">
+          <button class="button">Login</button>
+          <button class="button button_border">Register</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="main">
+        <div class="main__left-content">
+          <section class="main__intro">
+            <h1 class="main__title">Make<br>remote work</h1>
+            <p class="main__text text text_gray">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p><a class="button-link button-link_margin" href="#">Learn More</a>
+          </section>
+          <div class="main__brands"><img class="main__brand" src="images/client-databiz.svg" alt=""><img class="main__brand" src="images/client-audiophile.svg" alt=""><img class="main__brand" src="images/client-meet.svg" alt=""><img class="main__brand" src="images/client-maker.svg" alt=""></div>
+        </div>
+        <div class="main__right-content">
+          <div class="main__imgBox"><img class="main__image" src="images/image-hero-desktop.png" alt=""></div>
         </div>
       </div>
-    </nav>
-    <main class="intro intro-desktop page__main">
-      <div class="intro-desktop__left-content">
-        <h1 class="intro__title">Make remote work</h1>
-        <p class="intro__desc">
-          Get your team in sync, no matter your location. Streamline processes,
-          create team rituals, and watch productivity soar.
-        </p>
-        <a class="btn btn_black" href="#">Learn more</a>
-      </div>
-      <div class="intro-desktop__right-content">
-        <img class="intro__img" src="images/image-hero-mobile.png" alt="" />
-      </div>
     </main>
-    <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
   </body>
 </html>

@@ -1,0 +1,15 @@
+@import "mixins";
+@import "colors";
+@import "fonts";
+@import "base";
+
+///// common blocks /////
+@import "common/common";
+
+///// responsive /////
+@import "mobile/mobile";
+
+// temporary
+.header {
+  display: none;
+}
