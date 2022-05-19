@@ -1,3 +1,4 @@
+@import "zindex";
 @import "mixins";
 @import "colors";
 @import "fonts";
@@ -8,8 +9,3 @@
 
 ///// responsive /////
 @import "mobile/mobile";
-
-// temporary
-.header {
-  display: none;
-}

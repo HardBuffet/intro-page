@@ -1,19 +1,22 @@
 
 <nav class="nav">
-  <ul class="nav__list">
-    <li class="nav__item dropdown">
-      <button class="nav__button">Features<img src="images/icon-arrow-down.svg"/></button>
-      <div class="nav__dropdown-menu"><a class="nav__link" href="#"><img src="images/icon-todo.svg" alt=""/>Todo List</a><a class="nav__link" href="#"><img src="images/icon-calendar.svg" alt=""/>Calendar</a><a class="nav__link" href="#"><img src="images/icon-reminders.svg" alt=""/>Reminders</a><a class="nav__link" href="#"><img src="images/icon-planning.svg" alt=""/>Planning</a></div>
-    </li>
-    <li class="nav__item dropdown">
-      <button class="nav__button">Company<img src="images/icon-arrow-down.svg"/></button>
-      <div class="nav__dropdown-menu"><a class="nav__link" href="#">History</a><a class="nav__link" href="#">Our Team</a><a class="nav__link" href="#">Blog</a></div>
-    </li>
-    <li class="nav__item"><a class="nav__link">Careers</a></li>
-    <li class="nav__item"><a class="nav__link">About</a></li>
-  </ul>
-  <div class="nav__buttons">
-    <button class="button">Login</button>
-    <button class="button button_border">Register</button>
+  <button class="nav__button nav__button_toggle-menu"><img src="../images/icon-menu.svg" alt=""/></button>
+  <div class="menu nav__menu">
+    <ul class="nav__list">
+      <li class="nav__item dropdown">
+        <button class="nav__link">Features<img class="nav__icon" src="images/icon-arrow-down.svg"/></button>
+        <div class="nav__dropdown-menu"><a class="nav__link" href="#"><img src="images/icon-todo.svg" alt=""/>Todo List</a><a class="nav__link" href="#"><img src="images/icon-calendar.svg" alt=""/>Calendar</a><a class="nav__link" href="#"><img src="images/icon-reminders.svg" alt=""/>Reminders</a><a class="nav__link" href="#"><img src="images/icon-planning.svg" alt=""/>Planning</a></div>
+      </li>
+      <li class="nav__item dropdown">
+        <button class="nav__link">Company<img class="nav__icon" src="images/icon-arrow-down.svg"/></button>
+        <div class="nav__dropdown-menu"><a class="nav__link" href="#">History</a><a class="nav__link" href="#">Our Team</a><a class="nav__link" href="#">Blog</a></div>
+      </li>
+      <li class="nav__item"><a class="nav__link" href="#">Careers</a></li>
+      <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+    </ul>
+    <div class="nav__buttons">
+      <button class="button button-link_small_light">Login</button>
+      <button class="button-link button-link_small_light button-link_border_thin button-link_hover_black">Register</button>
+    </div>
   </div>
 </nav>

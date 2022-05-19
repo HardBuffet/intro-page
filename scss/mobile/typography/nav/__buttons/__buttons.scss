@@ -1,0 +1,8 @@
+.nav {
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 15px 25px;
+  }
+}

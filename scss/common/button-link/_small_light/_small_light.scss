@@ -1,0 +1,9 @@
+.button-link {
+  &_small_light {
+    background: $almostWhite;
+    color: $almostBlack;
+    padding: 0.7rem 1.3rem;
+    border: none;
+    cursor: pointer;
+  }
+}

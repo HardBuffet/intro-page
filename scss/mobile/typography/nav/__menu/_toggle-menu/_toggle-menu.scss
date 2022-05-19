@@ -1,0 +1,9 @@
+.nav {
+  &__menu {
+    right: -100%;
+    transition: right  0.4s;
+    &_toggle-menu {
+      right: 0;
+    }
+  }
+}

@@ -4,3 +4,16 @@
     padding: 0;
   }
 }
+
+@mixin pos(
+           $posVal: absolute,
+           $topRight: false,
+           $topVal: 0,
+           $rightVal: 0
+           ) {
+  @if $topRight {
+    position: $posVal;
+    top: $topVal;
+    right: $rightVal;
+  }
+}

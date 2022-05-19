@@ -1,8 +1,12 @@
+
 nav.nav
+  button.nav__button.nav__button_toggle-menu
+    img(src="../images/icon-menu.svg" alt="")
+  .menu.nav__menu
         ul.nav__list
           li.nav__item.dropdown
-            button.nav__button Features
-              img(src="images/icon-arrow-down.svg")
+            button.nav__link Features
+              img.nav__icon(src="images/icon-arrow-down.svg")
             .nav__dropdown-menu
               a(href="#" class="nav__link")
                 img(src="images/icon-todo.svg" alt="")
@@ -17,16 +21,16 @@ nav.nav
                 img(src="images/icon-planning.svg" alt="")
                 | Planning
           li.nav__item.dropdown
-            button.nav__button Company
-              img(src="images/icon-arrow-down.svg")
+            button.nav__link Company
+              img.nav__icon(src="images/icon-arrow-down.svg")
             .nav__dropdown-menu
               a(href="#" class="nav__link") History
               a(href="#" class="nav__link") Our Team
               a(href="#" class="nav__link") Blog
           li.nav__item
-            a.nav__link Careers
+            a(href="#").nav__link Careers
           li.nav__item
-            a.nav__link About
+            a(href="#").nav__link About
         .nav__buttons
-          button.button Login
-          button.button.button_border Register
+          button.button.button-link_small_light Login
+          button.button-link.button-link_small_light.button-link_border_thin.button-link_hover_black Register

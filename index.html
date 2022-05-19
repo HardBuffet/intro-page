@@ -4,26 +4,29 @@
     <title>This is my page</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/script.js" defer></script>
+    <script type="module" src="js/script.js" defer></script>
   </head>
   <body class="page">
-    <header class="header"><img src="images/logo.svg" alt="">
+    <header class="page__header"><img src="images/logo.svg" alt="">
       <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item dropdown">
-            <button class="nav__button">Features<img src="images/icon-arrow-down.svg"></button>
-            <div class="nav__dropdown-menu"><a class="nav__link" href="#"><img src="images/icon-todo.svg" alt="">Todo List</a><a class="nav__link" href="#"><img src="images/icon-calendar.svg" alt="">Calendar</a><a class="nav__link" href="#"><img src="images/icon-reminders.svg" alt="">Reminders</a><a class="nav__link" href="#"><img src="images/icon-planning.svg" alt="">Planning</a></div>
-          </li>
-          <li class="nav__item dropdown">
-            <button class="nav__button">Company<img src="images/icon-arrow-down.svg"></button>
-            <div class="nav__dropdown-menu"><a class="nav__link" href="#">History</a><a class="nav__link" href="#">Our Team</a><a class="nav__link" href="#">Blog</a></div>
-          </li>
-          <li class="nav__item"><a class="nav__link">Careers</a></li>
-          <li class="nav__item"><a class="nav__link">About</a></li>
-        </ul>
-        <div class="nav__buttons">
-          <button class="button">Login</button>
-          <button class="button button_border">Register</button>
+        <button class="nav__button nav__button_toggle-menu"><img class="nav__button-icon" src="../images/icon-menu.svg" alt=""></button>
+        <div class="menu nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item dropdown">
+              <button class="nav__link">Features<img class="nav__icon" src="images/icon-arrow-down.svg"></button>
+              <div class="nav__dropdown-menu"><a class="nav__link" href="#"><img src="images/icon-todo.svg" alt="">Todo List</a><a class="nav__link" href="#"><img src="images/icon-calendar.svg" alt="">Calendar</a><a class="nav__link" href="#"><img src="images/icon-reminders.svg" alt="">Reminders</a><a class="nav__link" href="#"><img src="images/icon-planning.svg" alt="">Planning</a></div>
+            </li>
+            <li class="nav__item dropdown">
+              <button class="nav__link">Company<img class="nav__icon" src="images/icon-arrow-down.svg"></button>
+              <div class="nav__dropdown-menu"><a class="nav__link" href="#">History</a><a class="nav__link" href="#">Our Team</a><a class="nav__link" href="#">Blog</a></div>
+            </li>
+            <li class="nav__item"><a class="nav__link" href="#">Careers</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+          </ul>
+          <div class="nav__buttons">
+            <button class="button button-link_small_light">Login</button>
+            <button class="button-link button-link_small_light button-link_border_thin button-link_hover_black">Register</button>
+          </div>
         </div>
       </nav>
     </header>
@@ -31,13 +34,13 @@
       <div class="main">
         <div class="main__left-content">
           <section class="main__intro">
-            <h1 class="main__title">Make<br>remote work</h1>
+            <h1 class="main__title">Make remote work</h1>
             <p class="main__text text text_gray">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p><a class="button-link button-link_margin" href="#">Learn More</a>
           </section>
           <div class="main__brands"><img class="main__brand" src="images/client-databiz.svg" alt=""><img class="main__brand" src="images/client-audiophile.svg" alt=""><img class="main__brand" src="images/client-meet.svg" alt=""><img class="main__brand" src="images/client-maker.svg" alt=""></div>
         </div>
         <div class="main__right-content">
-          <div class="main__imgBox"><img class="main__image" src="images/image-hero-desktop.png" alt=""></div>
+          <div class="main__imgBox"><img class="main__image main__image_size-small" src="images/image-hero-desktop.png" alt=""></div>
         </div>
       </div>
     </main>
