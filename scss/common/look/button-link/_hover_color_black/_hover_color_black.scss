@@ -1,0 +1,11 @@
+.button {
+  &-link {
+    &_hover {
+      &_color {
+        &_black:hover {
+          color: $button-link_hover_color_blackColor;
+        }
+      }
+    }
+  }
+}

@@ -17,3 +17,28 @@
     right: $rightVal;
   }
 }
+
+@mixin flex(
+            $center: false,
+            $ai: false,
+            $jc: false,
+            $dir: false,
+            $aiVal: center,
+            $jcVal: center,
+            $dirVal: column,
+            ) {
+  display: flex;
+  @if $ai {
+    align-items: $aiVal;
+  }
+  @if $jc {
+    justify-content: $jcVal;
+  }
+  @if $center {
+    justify-content: center;
+    align-items: center;
+  }
+  @if $dir {
+    flex-direction: $dirVal;
+  }
+}

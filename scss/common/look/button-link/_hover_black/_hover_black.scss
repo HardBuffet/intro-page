@@ -1,0 +1,8 @@
+.button-link {
+  &_hover_black {
+    &:hover {
+      background: $button-link_hover_blackBg; // !important
+      color: $button-link_hover_blackColor;
+    }
+  }
+}

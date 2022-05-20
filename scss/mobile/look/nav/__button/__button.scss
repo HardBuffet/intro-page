@@ -1,0 +1,10 @@
+.nav {
+  &__button {
+    z-index: $alpha;
+    display: block;
+    position: relative;
+    background:$navButtonBg;
+    border: none;
+    cursor: pointer;
+  }
+}

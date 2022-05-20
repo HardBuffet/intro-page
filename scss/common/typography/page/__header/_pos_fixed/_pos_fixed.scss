@@ -1,0 +1,9 @@
+.page {
+  &__header {
+    &_pos_fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+  }
+}

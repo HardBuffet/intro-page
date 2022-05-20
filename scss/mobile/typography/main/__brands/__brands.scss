@@ -1,7 +1,6 @@
 .main {
   &__brands {
-    display: flex;
-    justify-content: center;
+    @include flex($center: true, $jc: true);
     gap: clamp(1.25rem, -0.5rem + 8vw, 2.5rem);
     margin: {
       top: clamp(1.875rem, 1rem + 4vw, 2.5rem);

@@ -1,17 +1,2 @@
-///// BLOCKS /////
-@import "page/page";
-@import "button-link/button-link";
-@import "text/text";
-
-///// ELEMENTS /////
-@import "main/__brand/__brand";
-@import "page/__header/__header";
-
-///// MODS /////
-@import "text/_gray/_gray";
-@import "button-link/_hover/_hover";
-@import "button-link/_small_light/_small_light";
-@import "button-link/_border_thin/_border_thin";
-@import "button-link/_hover_black/_hover_black";
-@import "page/__header/__header";
-@import "page/__header/_pos_fixed/_pos_fixed";
+@import "look/look";
+@import "typography/typography";

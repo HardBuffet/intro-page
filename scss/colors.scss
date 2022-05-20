@@ -1,3 +1,7 @@
+
+
+
+
 $almostWhite: hsl(0, 0%, 98%);
 $almostGray: hsl(0, 0%, 41%);
 $almostBlack: hsl(0, 0%, 8%);
@@ -7,17 +11,23 @@ $pageColor: $almostBlack;
 
 $navMenuBg: $almostWhite;
 $navMenuColor: $almostGray;
+$navLinkBg: inherit;
+$navButtonBg: inherit;
 
 $buttonLinkBg: $almostBlack;
 $buttonLinkColor: $almostWhite;
 $buttonLinkBorder: $almostBlack;
+$button-link_small_lightBg:$almostWhite;
+$button-link_small_lightBgColor:$almostGray;
+$button-link_hover_color_blackColor: $almostBlack;
 
-$buttonLinkHoverBg: $almostWhite;
-$buttonLinkHoverColor: $almostBlack;
-$buttonLinkHoverBgBlack: $almostBlack;
-$buttonLinkHoverColorBlack: $almostWhite;
 
-$buttonLinkBorder: $almostBlack;
+$button-linkHoverBg: $almostWhite;
+$button-linkHoverColor: $almostBlack;
+$button-link_hover_blackBg: $almostBlack;
+$button-link_hover_blackColor: $almostWhite;
+
+$button-link_border_thinColor: $almostBlack;
 
 $mainText: $almostGray;
 

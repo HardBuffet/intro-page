@@ -1,0 +1,6 @@
+.button-link {
+  &_margin {
+    display: block;
+    width: max-content; // fallback if flex doesn't work
+  }
+}

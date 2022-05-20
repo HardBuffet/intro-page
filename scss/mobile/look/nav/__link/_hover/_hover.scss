@@ -1,0 +1,7 @@
+.nav {
+  &__link {
+    &:hover {
+      color: $button-linkHoverColor;
+    }
+  }
+}

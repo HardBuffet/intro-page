@@ -1,0 +1,13 @@
+.nav {
+  &__menu {
+    background: $navMenuBg;
+    z-index: $beta;
+    padding: {
+      top: 20px;
+      bottom: 80px;
+    }
+    height: 100vh;
+    width: 64vw;
+    overflow-y: scroll;
+  }
+}

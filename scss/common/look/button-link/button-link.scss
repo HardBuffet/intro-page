@@ -1,0 +1,14 @@
+.button-link {
+  text-decoration: none;
+  background: $buttonLinkBg;
+  color: $buttonLinkColor;
+  display:inline-block;
+  border-radius: 15px;
+  border: 1px solid $buttonLinkBorder;
+  padding: 1rem 1.3rem;
+  font: {
+    size: 0.9375rem; // fallback
+    size: clamp(0.9375rem, 0.5874999999999999rem + 1.6vw, 1.1875rem);
+  };
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.nav {
+  &__link {
+    text-decoration: none;
+    color: $navMenuColor;
+    padding: 1rem 2rem;
+    display: block;
+    background: $navLinkBg;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    border: none;
+  }
+}
